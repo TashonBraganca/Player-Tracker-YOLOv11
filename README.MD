@@ -1,4 +1,7 @@
-# Player Tracking and Re-Identification in Sports Video
+Player Tracking and Re-Identification in Sports Video
+About This Project
+This project is a robust computer vision solution for a sports analytics challenge. It uses a YOLO detector and a Kalman Filter-based tracker to identify and maintain consistent IDs for each player, successfully handling occlusions and re-entry.
+
 1. Project Overview
 This project implements a real-time player tracking system for sports analytics, as per Option 2 of the assignment. The primary objective is to detect and assign a consistent ID to each player in a video feed. The system is designed to be robust against common tracking challenges like player occlusion and movement.
 
@@ -52,10 +55,3 @@ source venv/bin/activate
 Install the required dependencies from requirements.txt:
 
 pip install -r requirements.txt
-
-4. Usage
-To run the player tracking on the provided video, execute the main script from the root of the project directory:
-
-python main_reid_tracker.py
-
-The script will process the video located at data/15sec_input_720p.mp4 and save the output with tracking annotations to a new file named final_output_video.mp4 in the same directory.
