@@ -1,4 +1,4 @@
-Player Tracking and Re-Identification in Sports Video
+# Player Tracking and Re-Identification in Sports Video
 1. Project Overview
 This project implements a real-time player tracking system for sports analytics, as per Option 2 of the assignment. The primary objective is to detect and assign a consistent ID to each player in a video feed. The system is designed to be robust against common tracking challenges like player occlusion and movement.
 
