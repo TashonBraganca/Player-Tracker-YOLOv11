@@ -39,11 +39,13 @@ After downloading, place the best.pt file inside the data folder in the project 
 
 Create and activate a virtual environment:
 
-# For Windows
+For Windows:
+
 python -m venv venv
 .\venv\Scripts\activate
 
-# For macOS/Linux
+For macOS/Linux:
+
 python -m venv venv
 source venv/bin/activate
 
